@@ -13,9 +13,8 @@
 		6669B9C514E3C4440064D355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9C314E3C4440064D355 /* InfoPlist.strings */; };
 		6669B9C714E3C4440064D355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9C614E3C4440064D355 /* main.m */; };
 		6669B9CB14E3C4440064D355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9CA14E3C4440064D355 /* AppDelegate.m */; };
-		6669B9CE14E3C4440064D355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9CD14E3C4440064D355 /* ViewController.m */; };
-		6669B9D114E3C4440064D355 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */; };
-		6669B9D414E3C4440064D355 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9D214E3C4440064D355 /* ViewController_iPad.xib */; };
+		6669B9CE14E3C4440064D355 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9CD14E3C4440064D355 /* WebViewController.m */; };
+		6669B9ED14E3C96B0064D355 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9EC14E3C96B0064D355 /* TopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +22,16 @@
 		6669B9BA14E3C4440064D355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6669B9BC14E3C4440064D355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6669B9BE14E3C4440064D355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6669B9C214E3C4440064D355 /* lock-rotation-Info.plist */ = {isa = PBXFileReference; path = "lock-rotation-Info.plist"; sourceTree = "<group>"; };
+		6669B9C214E3C4440064D355 /* lock-rotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lock-rotation-Info.plist"; sourceTree = "<group>"; };
 		6669B9C414E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6669B9C614E3C4440064D355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6669B9C814E3C4440064D355 /* lock-rotation-Prefix.pch */ = {isa = PBXFileReference; path = "lock-rotation-Prefix.pch"; sourceTree = "<group>"; };
-		6669B9C914E3C4440064D355 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6669B9C814E3C4440064D355 /* lock-rotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lock-rotation-Prefix.pch"; sourceTree = "<group>"; };
+		6669B9C914E3C4440064D355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6669B9CA14E3C4440064D355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6669B9CC14E3C4440064D355 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		6669B9CD14E3C4440064D355 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6669B9D014E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		6669B9D314E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6669B9CC14E3C4440064D355 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6669B9CD14E3C4440064D355 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6669B9EB14E3C96B0064D355 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		6669B9EC14E3C96B0064D355 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +80,10 @@
 			children = (
 				6669B9C914E3C4440064D355 /* AppDelegate.h */,
 				6669B9CA14E3C4440064D355 /* AppDelegate.m */,
-				6669B9CC14E3C4440064D355 /* ViewController.h */,
-				6669B9CD14E3C4440064D355 /* ViewController.m */,
-				6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */,
-				6669B9D214E3C4440064D355 /* ViewController_iPad.xib */,
+				6669B9EB14E3C96B0064D355 /* TopViewController.h */,
+				6669B9EC14E3C96B0064D355 /* TopViewController.m */,
+				6669B9CC14E3C4440064D355 /* WebViewController.h */,
+				6669B9CD14E3C4440064D355 /* WebViewController.m */,
 				6669B9C114E3C4440064D355 /* Supporting Files */,
 			);
 			path = "lock-rotation";
@@ -152,8 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6669B9C514E3C4440064D355 /* InfoPlist.strings in Resources */,
-				6669B9D114E3C4440064D355 /* ViewController_iPhone.xib in Resources */,
-				6669B9D414E3C4440064D355 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +163,8 @@
 			files = (
 				6669B9C714E3C4440064D355 /* main.m in Sources */,
 				6669B9CB14E3C4440064D355 /* AppDelegate.m in Sources */,
-				6669B9CE14E3C4440064D355 /* ViewController.m in Sources */,
+				6669B9CE14E3C4440064D355 /* WebViewController.m in Sources */,
+				6669B9ED14E3C96B0064D355 /* TopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,22 +177,6 @@
 				6669B9C414E3C4440064D355 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6669B9D014E3C4440064D355 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		6669B9D214E3C4440064D355 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6669B9D314E3C4440064D355 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +268,7 @@
 				6669B9D914E3C4440064D355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

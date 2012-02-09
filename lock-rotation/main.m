@@ -2,9 +2,6 @@
 //  main.m
 //  lock-rotation
 //
-//  Created by じゅんや いしはら on 12/02/09.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
@@ -13,6 +10,6 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, @"AppDelegate");
     }
 }

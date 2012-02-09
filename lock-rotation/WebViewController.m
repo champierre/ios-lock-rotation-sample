@@ -1,19 +1,17 @@
 //
-//  ViewController.m
+//  WebViewController.m
 //  lock-rotation
 //
-//  Created by じゅんや いしはら on 12/02/09.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
 
-#import "ViewController.h"
+#import "WebViewController.h"
 
-@implementation ViewController
+@implementation WebViewController
+
+@synthesize rotationLocked = _rotationLocked;
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
@@ -21,14 +19,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIWebView *webView = [[[UIWebView alloc] init] autorelease];
+    webView.frame = self.view.bounds;
+    webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    webView.scalesPageToFit = YES;
+    [self.view addSubview:webView];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]];
+    [webView loadRequest:request];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -53,9 +56,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    if (self.rotationLocked) {
+        return(interfaceOrientation==UIInterfaceOrientationPortrait);
     } else {
         return YES;
     }
