@@ -12,7 +12,8 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        _items = [[NSMutableArray alloc] initWithObjects:@"Rotation Locked", @"Rotation Unlocked", nil];
+//        _items = [[NSMutableArray alloc] initWithObjects:@"Rotation Locked", @"Rotation Unlocked", nil];
+        _items = [[NSMutableArray alloc] initWithObjects:@"Go to Webview", nil];
     }
     return self;
 }
@@ -91,11 +92,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     WebViewController *webViewController = [[[WebViewController alloc] init] autorelease];
-    if (indexPath.row == 0) {
-        webViewController.rotationLocked = YES;
-    } else {
+ //   if (indexPath.row == 0) {
+ //       webViewController.rotationLocked = YES;
+ //   } else {
         webViewController.rotationLocked = NO;
-    }
+ //   }
     
     [self.navigationController pushViewController:webViewController animated:YES];
 }
