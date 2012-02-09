@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6669B9BB14E3C4440064D355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669B9BA14E3C4440064D355 /* UIKit.framework */; };
+		6669B9BD14E3C4440064D355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669B9BC14E3C4440064D355 /* Foundation.framework */; };
+		6669B9BF14E3C4440064D355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669B9BE14E3C4440064D355 /* CoreGraphics.framework */; };
+		6669B9C514E3C4440064D355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9C314E3C4440064D355 /* InfoPlist.strings */; };
+		6669B9C714E3C4440064D355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9C614E3C4440064D355 /* main.m */; };
+		6669B9CB14E3C4440064D355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9CA14E3C4440064D355 /* AppDelegate.m */; };
+		6669B9CE14E3C4440064D355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669B9CD14E3C4440064D355 /* ViewController.m */; };
+		6669B9D114E3C4440064D355 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */; };
+		6669B9D414E3C4440064D355 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6669B9D214E3C4440064D355 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6669B9B614E3C4440064D355 /* lock-rotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lock-rotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6669B9BA14E3C4440064D355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6669B9BC14E3C4440064D355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6669B9BE14E3C4440064D355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6669B9C214E3C4440064D355 /* lock-rotation-Info.plist */ = {isa = PBXFileReference; path = "lock-rotation-Info.plist"; sourceTree = "<group>"; };
+		6669B9C414E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6669B9C614E3C4440064D355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6669B9C814E3C4440064D355 /* lock-rotation-Prefix.pch */ = {isa = PBXFileReference; path = "lock-rotation-Prefix.pch"; sourceTree = "<group>"; };
+		6669B9C914E3C4440064D355 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6669B9CA14E3C4440064D355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6669B9CC14E3C4440064D355 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6669B9CD14E3C4440064D355 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6669B9D014E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6669B9D314E3C4440064D355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6669B9B314E3C4440064D355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669B9BB14E3C4440064D355 /* UIKit.framework in Frameworks */,
+				6669B9BD14E3C4440064D355 /* Foundation.framework in Frameworks */,
+				6669B9BF14E3C4440064D355 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6669B9AB14E3C4440064D355 = {
+			isa = PBXGroup;
+			children = (
+				6669B9C014E3C4440064D355 /* lock-rotation */,
+				6669B9B914E3C4440064D355 /* Frameworks */,
+				6669B9B714E3C4440064D355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6669B9B714E3C4440064D355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6669B9B614E3C4440064D355 /* lock-rotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6669B9B914E3C4440064D355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6669B9BA14E3C4440064D355 /* UIKit.framework */,
+				6669B9BC14E3C4440064D355 /* Foundation.framework */,
+				6669B9BE14E3C4440064D355 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6669B9C014E3C4440064D355 /* lock-rotation */ = {
+			isa = PBXGroup;
+			children = (
+				6669B9C914E3C4440064D355 /* AppDelegate.h */,
+				6669B9CA14E3C4440064D355 /* AppDelegate.m */,
+				6669B9CC14E3C4440064D355 /* ViewController.h */,
+				6669B9CD14E3C4440064D355 /* ViewController.m */,
+				6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */,
+				6669B9D214E3C4440064D355 /* ViewController_iPad.xib */,
+				6669B9C114E3C4440064D355 /* Supporting Files */,
+			);
+			path = "lock-rotation";
+			sourceTree = "<group>";
+		};
+		6669B9C114E3C4440064D355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6669B9C214E3C4440064D355 /* lock-rotation-Info.plist */,
+				6669B9C314E3C4440064D355 /* InfoPlist.strings */,
+				6669B9C614E3C4440064D355 /* main.m */,
+				6669B9C814E3C4440064D355 /* lock-rotation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6669B9B514E3C4440064D355 /* lock-rotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6669B9D714E3C4440064D355 /* Build configuration list for PBXNativeTarget "lock-rotation" */;
+			buildPhases = (
+				6669B9B214E3C4440064D355 /* Sources */,
+				6669B9B314E3C4440064D355 /* Frameworks */,
+				6669B9B414E3C4440064D355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lock-rotation";
+			productName = "lock-rotation";
+			productReference = 6669B9B614E3C4440064D355 /* lock-rotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6669B9AD14E3C4440064D355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6669B9B014E3C4440064D355 /* Build configuration list for PBXProject "lock-rotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6669B9AB14E3C4440064D355;
+			productRefGroup = 6669B9B714E3C4440064D355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6669B9B514E3C4440064D355 /* lock-rotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6669B9B414E3C4440064D355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669B9C514E3C4440064D355 /* InfoPlist.strings in Resources */,
+				6669B9D114E3C4440064D355 /* ViewController_iPhone.xib in Resources */,
+				6669B9D414E3C4440064D355 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6669B9B214E3C4440064D355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669B9C714E3C4440064D355 /* main.m in Sources */,
+				6669B9CB14E3C4440064D355 /* AppDelegate.m in Sources */,
+				6669B9CE14E3C4440064D355 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6669B9C314E3C4440064D355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669B9C414E3C4440064D355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6669B9CF14E3C4440064D355 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669B9D014E3C4440064D355 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6669B9D214E3C4440064D355 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669B9D314E3C4440064D355 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6669B9D514E3C4440064D355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6669B9D614E3C4440064D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6669B9D814E3C4440064D355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lock-rotation/lock-rotation-Prefix.pch";
+				INFOPLIST_FILE = "lock-rotation/lock-rotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6669B9D914E3C4440064D355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lock-rotation/lock-rotation-Prefix.pch";
+				INFOPLIST_FILE = "lock-rotation/lock-rotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6669B9B014E3C4440064D355 /* Build configuration list for PBXProject "lock-rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669B9D514E3C4440064D355 /* Debug */,
+				6669B9D614E3C4440064D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6669B9D714E3C4440064D355 /* Build configuration list for PBXNativeTarget "lock-rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669B9D814E3C4440064D355 /* Debug */,
+				6669B9D914E3C4440064D355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6669B9AD14E3C4440064D355 /* Project object */;
+}
