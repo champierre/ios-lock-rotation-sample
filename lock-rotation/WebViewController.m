@@ -27,9 +27,8 @@
     [self.view addSubview:webView];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]];
     [webView loadRequest:request];
-    
-    
-    UIBarButtonItem * button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target:self action:@selector(geToggle:)];
+
+    UIBarButtonItem * button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target:self action:@selector(toggleLock:)];
     [self setToolbarItems:[NSArray arrayWithObjects:button,nil] animated:NO];
     [button release];
     [self.navigationController setToolbarHidden:NO animated:NO];
@@ -37,7 +36,7 @@
     self.navigationItem.title = @"Unlocked";
 }
 
--(void)geToggle:(id)sender{
+-(void)toggleLock:(id)sender{
     self.rotationLocked = !self.rotationLocked;
     NSString * text = @"";
     if (self.rotationLocked){
